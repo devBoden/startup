@@ -1,2 +1,3 @@
-# startup
-[notes.md](notes.md)
+#Freetimes
+
+#Elevator Pitch
