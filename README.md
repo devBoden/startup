@@ -21,3 +21,12 @@ This shows the user profile aspect of Freetime.
 - Friending system
 - Joint schedule building that easily signifies the areas where there is free time
 - Ability to search for users with particular skills
+
+## Techologies
+
+- HTML -
+- CSS -
+- Javascript
+
+- Login
+- 
