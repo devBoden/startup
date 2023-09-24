@@ -41,4 +41,8 @@ This shows the user profile aspect of Freetime.
 
 ### Login
 - Allows users to create and login to an account
-- 
+- Use MongoDB to store the credentials of the user
+
+### Database
+- Using MonboDB to store the user data of the users
+-
