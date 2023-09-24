@@ -26,9 +26,9 @@ This shows the user profile aspect of Freetime.
 
 ### HTML
 - Using HTML to create the pages:
- - The schedule for the user
- - The profile page for the user
- - The explore database, that allows users to find either friends or people with certain skill sets
+    - The schedule for the user
+    - The profile page for the user
+    - The explore database, that allows users to find either friends or people with certain skill sets
 
 ### CSS
 
