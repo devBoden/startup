@@ -42,7 +42,10 @@ This shows the user profile aspect of Freetime.
 ### Login
 - Allows users to create and login to an account
 - Use MongoDB to store the credentials of the user
-
+- Restricts functionality of the website until logged in, can't make a schedule until logged in.
 ### Database
 - Using MonboDB to store the user data of the users
--
+- Stores the info of schedules, and the profile info
+
+### Websocket
+- Sends the data back and forth from user to server
