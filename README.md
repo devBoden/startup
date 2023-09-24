@@ -31,7 +31,14 @@ This shows the user profile aspect of Freetime.
     - The explore database, that allows users to find either friends or people with certain skill sets
 
 ### CSS
+- Using CSS to use customize fonts, resize, and recolor
+- Add navigation elements
+- Space the content out
 
 ### Javascript
+- Using Javascript to add functionality to the buttons on the website
+- Program the drag and drop schedule system
+
 ### Login
+- Allows users to create and login to an account
 - 
