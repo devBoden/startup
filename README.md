@@ -12,3 +12,12 @@ This would be the interface for the scheduling calendar, showing 3 friends/cowor
 ![Alt text](<user profile pages.png>)
 
 This shows the user profile aspect of Freetime.
+
+## Key Features
+
+- Profile Customization
+- Drag and drop schedule building
+- The ability to list skills and occupations
+- Friending system
+- Joint schedule building that easily signifies the areas where there is free time
+- Ability to search for users with particular skills
