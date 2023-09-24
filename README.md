@@ -8,3 +8,7 @@ Have you ever wanted to get a group of friends together, and could not find a si
 ![Alt text](<schedule diagrams.png>)
 
 This would be the interface for the scheduling calendar, showing 3 friends/coworkers compiling their schedules together to find the free time.
+
+![Alt text](<user profile pages.png>)
+
+This shows the user profile aspect of Freetime.
