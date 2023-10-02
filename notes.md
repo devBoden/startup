@@ -7,3 +7,5 @@ Talked to the TA.  Learned about the web servers and how to change the IP adress
 I bought the domain name a few days ago.  Today I actually connected the name to my server.  Now if I type in the domain name it goes directly to the website, which is pretty cool.
 
 Learned how to change the Caddy file to secure the website.  Was reading the github thing.  I think it's cool that the secure thing is free now, when it cost 100 dollars per certificate back in the day.
+
+When uploading pictures and images I learned that you need to open the picture or video in a new tab and then copy that address.  Because otherwise it will be the page to the website.
