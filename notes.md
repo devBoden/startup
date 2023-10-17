@@ -9,3 +9,5 @@ I bought the domain name a few days ago.  Today I actually connected the name to
 Learned how to change the Caddy file to secure the website.  Was reading the github thing.  I think it's cool that the secure thing is free now, when it cost 100 dollars per certificate back in the day.
 
 When uploading pictures and images I learned that you need to open the picture or video in a new tab and then copy that address.  Because otherwise it will be the page to the website.
+
+Learned a little about css.  The body tag is different from the main tag. Add padding between things with a padding tag.  Flex is confusing, might need to study more.  Use justify-content to either put it in the center or the left or the right.  HSL stands for hue, saturation, and light.
