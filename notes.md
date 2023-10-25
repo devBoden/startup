@@ -13,3 +13,5 @@ When uploading pictures and images I learned that you need to open the picture o
 Learned a little about css.  The body tag is different from the main tag. Add padding between things with a padding tag.  Flex is confusing, might need to study more.  Use justify-content to either put it in the center or the left or the right.  HSL stands for hue, saturation, and light.
 
 Learned how to add bootstrap to my website.  Learned how to link a css page to a html page.  Also learned how to make a child to a tag in css.
+
+Learned the basics of javascript.  Like using let and const.
