@@ -1,3 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+header {
+    flex: 0 80px;
+    background-color: turquoise;
+}
+
+menu > li {
+    padding: 8px;
+}
+
+main {
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.box {
+    align-items: center;
+}
+
+footer {
+    flex: 0 30px;
+    background-color: black;
+    color: white;
+}
+
+menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row !important;
+    list-style: none;
+}
+
+
+footer a {
+    float: right;
+    color: white;
+}
+
+@media (max-height: 600px) {
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    main {
+        flex: 1 100vh;
+    }
+}
+
 .search-wrapper {
     display: flex;
     flex-direction: column;
@@ -19,6 +82,7 @@ input {
     border: 1px solid black;
     background-color: white;
     padding: .5rem;
+    border-radius: 5px;
 }
 
 .card > .header {
