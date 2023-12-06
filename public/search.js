@@ -12,7 +12,7 @@ searchInput.addEventListener("input", (e) => {
     })
 }) 
 
-fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json()).then(data => {
+fetch("/api/names").then(res => res.json()).then(data => {
     users = data.map(user =>{
     const card = userCardTemplate.content.cloneNode(true).children[0]
     const header = card.querySelector("[data-header]")
