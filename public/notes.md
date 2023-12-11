@@ -15,3 +15,5 @@ Learned a little about css.  The body tag is different from the main tag. Add pa
 Learned how to add bootstrap to my website.  Learned how to link a css page to a html page.  Also learned how to make a child to a tag in css.
 
 Learned the basics of javascript.  Like using let and const.
+
+Used javascript to integrate an account creation, taking in a name, occupation, and set of skills.  This is stored using local storage data.  Search bar also uses javascript to search through a list of names.  Data is called later to display account information.
