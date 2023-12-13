@@ -10,12 +10,12 @@ app.use(express.static('public'));
 var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
-// GetScores
+
 apiRouter.get('/names', (_req, res) => {
     res.send(names);
   });
   
-  // SubmitScore
+
   apiRouter.post('/names', (req, res) => {
    names.push(req.body.name)
    console.log(names)
