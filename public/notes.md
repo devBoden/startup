@@ -19,3 +19,5 @@ Learned the basics of javascript.  Like using let and const.
 Used javascript to integrate an account creation, taking in a name, occupation, and set of skills.  This is stored using local storage data.  Search bar also uses javascript to search through a list of names.  Data is called later to display account information.
 
 Made a quote area on the main page to show a third party API service call.  Then used the login on the home page to use the front end to call service.  Then on the users page called the backend to retrieve the users and display them. 
+
+Was having trouble with the startup upload.  Learned that I probably needed the .json files, liscence, and ignore files.
