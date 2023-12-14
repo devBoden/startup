@@ -1,52 +1,52 @@
 async function login() {
   // ... (your existing code for setting localStorage)
 
-  const response = await fetch('/api/names', {
-    method: 'POST',
-    headers: {'content-type': 'application/json'},
-    body: JSON.stringify({name : nameEl.value}),
+  const response = await fetch('/api/users', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ name: nameEl.value }),
   });
 
   // Redirect to the account page after successful login
   if (response.ok) {
-    window.location.href = "account.html";
+      window.location.href = "account.html";
   }
 
-  // Fetch and display names on the page
-  fetchNames();
+  // Fetch and display users on the page
+  fetchUsers();
 }
 
-async function fetchNames() {
+async function fetchUsers() {
   try {
-    const response = await fetch('/api/names');
-    if (!response.ok) {
-      throw new Error('Failed to fetch names');
-    }
+      const response = await fetch('/api/users');
+      if (!response.ok) {
+          throw new Error('Failed to fetch users');
+      }
 
-    const names = await response.json();
-    displayNames(names);
+      const users = await response.json();
+      displayUsers(users);
   } catch (error) {
-    console.error('Error fetching names:', error);
+      console.error('Error fetching users:', error);
   }
 }
 
-function displayNames(names) {
-  // Assuming you have an element with the id 'namesList' to display the names
-  const namesList = document.getElementById('namesList');
+function displayUsers(users) {
+  // Assuming you have an element with the id 'usersList' to display the users
+  const usersList = document.getElementById('usersList');
 
   // Clear previous content
-  namesList.innerHTML = '';
+  usersList.innerHTML = '';
 
-  // Create a list of names and append it to the namesList element
+  // Create a list of users and append it to the usersList element
   const ul = document.createElement('ul');
-  names.forEach((name) => {
-    const li = document.createElement('li');
-    li.textContent = name;
-    ul.appendChild(li);
+  users.forEach((user) => {
+      const li = document.createElement('li');
+      li.textContent = `Name: ${user.name}, Skills: ${user.skills}, Occupation: ${user.occupation}`;
+      ul.appendChild(li);
   });
 
-  namesList.appendChild(ul);
+  usersList.appendChild(ul);
 }
 
-// Call fetchNames() when the page loads to initially display names
-document.addEventListener('DOMContentLoaded', fetchNames);
+// Call fetchUsers() when the page loads to initially display users
+document.addEventListener('DOMContentLoaded', fetchUsers);
