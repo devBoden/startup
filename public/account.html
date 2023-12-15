@@ -28,19 +28,31 @@
     </header>
 
     <main >
-        <div class="account-container">
-            <label for="name-input">Name:</label>
-            <input type="text" id="name-input" value="">
+        <form id="info">
+            <label for="input1">Name:</label>
+            <input type="text" id="input1" name="input1" required>
+    
+            <label for="input2">Occupation:</label>
+            <input type="text" id="input2" name="input2" required>
+    
+            <label for="input3">Skills:</label>
+            <input type="text" id="input3" name="input3" required>
+    
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+
+        <div>
+            <label for="output1">Output 1:</label>
+            <input type="text" id="output1" readonly>
         </div>
-        <div class="account-container">
-            <label for="name-input">Hometown:</label>
-            <input type="text" id="name-input-hometown" value="">
+        <div>
+            <label for="output2">Output 2:</label>
+            <input type="text" id="output2" readonly>
         </div>
-        <div class="account-container">
-            <label for="name-input">Occupation:</label>
-            <input type="text" id="name-input-occupation" value="">
+        <div>
+            <label for="output3">Output 3:</label>
+            <input type="text" id="output3" readonly>
         </div>
-        <button class="save-button" onclick="saveData('name-input-name')">Save</button>
     </main>
 
     <footer class="bg-dark text-white-50">

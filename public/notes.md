@@ -21,3 +21,5 @@ Used javascript to integrate an account creation, taking in a name, occupation, 
 Made a quote area on the main page to show a third party API service call.  Then used the login on the home page to use the front end to call service.  Then on the users page called the backend to retrieve the users and display them. 
 
 Was having trouble with the startup upload.  Learned that I probably needed the .json files, liscence, and ignore files.
+
+Got the login function working. Not much of anything else.

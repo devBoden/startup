@@ -1,44 +1,14 @@
+function submitForm() {
+    // Get values from input fields
+    var value1 = document.getElementById('input1').value;
+    var value2 = document.getElementById('input2').value;
+    var value3 = document.getElementById('input3').value;
 
-function saveName() {
-    var inputValue = document.getElementById(inputId).value;
-    var fieldName = inputId.replace('name-input-', '')
+    // Paste values into text boxes
+    document.getElementById('output1').value = value1;
+    document.getElementById('output2').value = value2;
+    document.getElementById('output3').value = value3;
 
-    console.log('Field Name;', fieldName)
-    console.log('Input Value:', inputValue)
-
-    alert('Data saved: ' + inputValue + ' for' + fieldName);
+    // Reset form if needed
+    document.getElementById('myForm').reset();
 }
-
-function saveData(inputId) {
-    var inputValue = document.getElementById(inputId).value;
-    var fieldName = inputId.replace('name-input-', '');
-  
-    // Create an object to hold the data you want to save
-    var dataToSave = {
-      field: fieldName,
-      value: inputValue,
-    };}
-
-    fetch('/api/account', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(dataToSave),
-      })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(responseData => {
-          // Handle the response from the server if needed
-          console.log('Server response:', responseData);
-          alert('Data saved successfully!');
-        })
-        .catch(error => {
-          // Handle errors that occurred during the fetch
-          console.error('Error during fetch:', error);
-          alert('Error saving data. Please try again.');
-        });
